@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/Actio.Api/bin/Debug/netcoreapp2.0/Actio.Api.dll",
+            "program": "${workspaceFolder}/src/Actio.Website/bin/Debug/netcoreapp2.0/Actio.Website.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/Actio.Api",
+            "cwd": "${workspaceFolder}/src/Actio.Website",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

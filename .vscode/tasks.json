@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Actio.Api/Actio.Api.csproj"
+                "${workspaceFolder}/src/Actio.Website/Actio.Website.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/Actio.Api/Actio.Api.csproj"
+                "${workspaceFolder}/src/Actio.Website/Actio.Website.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/src/Actio.Api/Actio.Api.csproj"
+                "${workspaceFolder}/src/Actio.Website/Actio.Website.csproj"
             ],
             "problemMatcher": "$tsc"
         }
