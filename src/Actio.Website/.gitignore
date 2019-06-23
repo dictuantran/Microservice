@@ -1,0 +1,4 @@
+appsetting.*
+bin/
+obj/
+node_modules/
