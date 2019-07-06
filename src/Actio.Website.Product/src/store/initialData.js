@@ -14,5 +14,5 @@ export const initialData = {
         editing: false,
         selectedId: -1,
         selectedType: PRODUCTS
-    }   
+    }
 }
