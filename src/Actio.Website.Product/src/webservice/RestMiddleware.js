@@ -1,6 +1,6 @@
-import { STORE, UPDATE, DELETE} from "../store/modelActionTypes";
+import { STORE, UPDATE, DELETE} from "../constants/modelActionTypes";
 import { RestDataSource } from "./RestDataSource";
-import { PRODUCTS, SUPPLIERS } from "../store/dataTypes";
+import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes";
 
 export const GET_DATA = "rest_get_data";
 

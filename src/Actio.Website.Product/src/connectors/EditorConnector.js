@@ -1,7 +1,6 @@
 import { connect } from "react-redux";
-//import { endEditing } from "./stateActions";
-import { PRODUCTS, SUPPLIERS  } from "./dataTypes";
-import { saveAndEndEditing } from "./multiActionCreators";
+import { PRODUCTS, SUPPLIERS  } from "../constants/dataTypes";
+import { saveAndEndEditing } from "../actions/multiActionCreators";
 import { withRouter } from "react-router-dom";
 
 export const EditorConnector = (dataType, presentationComponent) => {

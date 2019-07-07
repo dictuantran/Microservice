@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch, Redirect } 
     from "react-router-dom";
-import { ToggleLink } from "./routing/ToggleLink";
-import { RoutedDisplay } from "./routing/RoutedDisplay";
-import { IsolatedTable } from "./IsolatedTable";
-import { IsolatedEditor } from "./IsolatedEditor";
-import { RequestError } from "./webservice/RequestError";
+import { ToggleLink } from "../routing/ToggleLink";
+import { RoutedDisplay } from "../routing/RoutedDisplay";
+import { IsolatedTable } from "../components/IsolatedTable";
+import { IsolatedEditor } from "../components/IsolatedEditor";
+import { RequestError } from "../webservice/RequestError";
 
 export class Selector extends Component {
 

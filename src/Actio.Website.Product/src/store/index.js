@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
-import modelReducer from "./modelReducer";
-import stateReducer from "./stateReducer";
+import modelReducer from "../reducers/modelReducer";
+import stateReducer from "../reducers/stateReducer";
 import { customReducerEnhancer } from "./customReducerEnhancer";
 import { multiActions } from "./multiActionMiddleware";
 import { asyncEnhancer } from "./asyncEnhancer";
@@ -24,4 +24,4 @@ export default createStore(enhancedReducer,
         asyncEnhancer(2000)));
 
 export { saveProduct, saveSupplier, deleteProduct, deleteSupplier } 
-    from "./modelActionCreators";
+    from "../actions/modelActionCreators";

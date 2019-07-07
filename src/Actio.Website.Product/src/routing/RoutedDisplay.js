@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { ProductTable } from "../ProductTable"
-import { ProductEditor } from "../ProductEditor";
-import { EditorConnector } from "../store/EditorConnector";
-import { PRODUCTS } from "../store/dataTypes";
-import { TableConnector } from "../store/TableConnector";
+import { ProductTable } from "../components/ProductTable"
+import { ProductEditor } from "../components/ProductEditor";
+import { EditorConnector } from "../connectors/EditorConnector";
+import { PRODUCTS } from "../constants/dataTypes";
+import { TableConnector } from "../connectors/TableConnector";
 import { Link } from "react-router-dom";
-import { SupplierEditor } from "../SupplierEditor";
-import { SupplierTable } from "../SupplierTable";
+import { SupplierEditor } from "../components/SupplierEditor";
+import { SupplierTable } from "../components/SupplierTable";
 
 export const RoutedDisplay = (dataType) => {
 

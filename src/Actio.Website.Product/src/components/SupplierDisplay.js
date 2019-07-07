@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { SupplierEditor } from "./SupplierEditor";
-import { SupplierTable } from "./SupplierTable";
+import { SupplierTable } from "../SupplierTable";
 import { connect } from "react-redux";
-import { startCreatingSupplier } from "./store/stateActions";
-import { SUPPLIERS } from "./store/dataTypes";
-import { EditorConnector } from "./store/EditorConnector";
-import { TableConnector } from "./store/TableConnector";
+import { startCreatingSupplier } from "../actions/stateActions";
+import { SUPPLIERS } from "../constants/dataTypes";
+import { EditorConnector } from "../connectors/EditorConnector";
+import { TableConnector } from "../connectors/TableConnector";
 
 const ConnectedEditor = EditorConnector(SUPPLIERS, SupplierEditor);
 const ConnectedTable = TableConnector(SUPPLIERS, SupplierTable);

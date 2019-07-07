@@ -1,4 +1,4 @@
-import { PRODUCTS, SUPPLIERS } from "./dataTypes";
+import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes";
 
 export const initialData = {
     modelData: {

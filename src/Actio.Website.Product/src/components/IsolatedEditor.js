@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { RestDataSource } from "./webservice/RestDataSource";
+import { RestDataSource } from "../webservice/RestDataSource";
 import { ProductEditor } from "./ProductEditor";
 
 export class IsolatedEditor extends Component {

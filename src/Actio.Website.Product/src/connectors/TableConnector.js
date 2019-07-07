@@ -1,10 +1,9 @@
 import { connect } from "react-redux";
-//import { startEditingProduct, startEditingSupplier } from "./stateActions";
-import { deleteProduct, deleteSupplier } from "./modelActionCreators";
-import { PRODUCTS, SUPPLIERS } from "./dataTypes";
+import { deleteProduct, deleteSupplier } from "../actions/modelActionCreators";
+import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes";
 import { withRouter } from "react-router-dom";
 import { getData } from "../webservice/RestMiddleware";
-import { DataGetter } from "../DataGetter";
+import { DataGetter } from "../components/DataGetter";
 
 export const TableConnector = (dataType, presentationComponent) => {
 

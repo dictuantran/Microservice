@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Selector } from './Selector';
+import { Selector } from '../selectors/Selector';
 import { ProductDisplay } from './ProductDisplay';
 import { SupplierDisplay } from './SupplierDisplay';
 

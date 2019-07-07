@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import { Provider } from "react-redux";
 import dataStore from "./store";
-import { Selector } from "./Selector";
-// import { ProductDisplay } from "./ProductDisplay";
-// import { SupplierDisplay } from "./SupplierDisplay";
-import { PRODUCTS, SUPPLIERS } from "./store/dataTypes";
+import { Selector } from "./selectors/Selector";
+import { PRODUCTS, SUPPLIERS } from "./constants/dataTypes";
 
 export default class App extends Component {
 

@@ -1,4 +1,4 @@
-import { PRODUCTS, SUPPLIERS } from "./dataTypes";
+import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes";
 
 export const STATE_START_EDITING = "state_start_editing";
 export const STATE_END_EDITING = "state_end_editing";

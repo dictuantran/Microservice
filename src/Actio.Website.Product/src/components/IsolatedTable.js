@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { RestDataSource } from "./webservice/RestDataSource";
+import { RestDataSource } from "../webservice/RestDataSource";
 import { Link } from "react-router-dom";
 
 export class IsolatedTable extends Component {

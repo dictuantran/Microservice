@@ -1,5 +1,5 @@
-import { PRODUCTS, SUPPLIERS } from "./dataTypes"
-import { STORE, UPDATE, DELETE } from "./modelActionTypes";
+import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes"
+import { STORE, UPDATE, DELETE } from "../constants/modelActionTypes";
  
 let idCounter = 100;
 

@@ -1,6 +1,6 @@
 import { STATE_START_EDITING, STATE_END_EDITING, STATE_START_CREATING } 
-    from "./stateActions";
-import { initialData } from "./initialData";
+    from "../actions/stateActions";
+import { initialData } from "../store/initialData";
 
 export default function(storeData, action) {
     switch(action.type) {

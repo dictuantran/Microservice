@@ -1,4 +1,4 @@
-import { PRODUCTS } from "./dataTypes";
+import { PRODUCTS } from "../constants/dataTypes";
 import { saveProduct, saveSupplier } from "./modelActionCreators";
 import { endEditing } from "./stateActions";
 
