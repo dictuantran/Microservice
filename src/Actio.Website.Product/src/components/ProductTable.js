@@ -18,8 +18,8 @@ export class ProductTable extends Component {
                         <th></th>
                     </tr>
                 </thead>
-                <tbody>
-                    {
+                <tbody>                
+                    {                                            
                         this.props.products.map(p => 
                             <ProductTableRow product={ p } 
                                 key={ p.id }

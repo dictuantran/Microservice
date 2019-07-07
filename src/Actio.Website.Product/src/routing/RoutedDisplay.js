@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { ProductTable } from "../components/ProductTable"
-import { ProductEditor } from "../components/ProductEditor";
-import { EditorConnector } from "../connectors/EditorConnector";
-import { PRODUCTS } from "../constants/dataTypes";
-import { TableConnector } from "../connectors/TableConnector";
 import { Link } from "react-router-dom";
-import { SupplierEditor } from "../components/SupplierEditor";
+import { PRODUCTS } from "../constants/dataTypes";
+import { EditorConnector } from "../connectors/EditorConnector";
+import { TableConnector } from "../connectors/TableConnector";
+import { ProductTable } from "../components/ProductTable";
+import { ProductEditor } from "../components/ProductEditor";
 import { SupplierTable } from "../components/SupplierTable";
+import { SupplierEditor } from "../components/SupplierEditor";
 
 export const RoutedDisplay = (dataType) => {
 
@@ -16,8 +16,10 @@ export const RoutedDisplay = (dataType) => {
         ? ProductTable : SupplierTable);
     
     return class extends Component {
+
         render() {
             const modeParam = this.props.match.params.mode;
+
             if (modeParam === "edit" || modeParam === "create") {
                 return <ConnectedEditor key={ this.props.match.params.id || -1 } />
             } else {

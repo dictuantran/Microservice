@@ -30,7 +30,7 @@ export class ToggleLink extends Component {
                 { this.state.doRedirect && <Redirect to={ this.props.to } /> }
                 <button className={ combinedClasses } onClick={ this.handleClick }> 
                     {this.props.children} 
-                </button>             
+                </button>                
             </React.Fragment>
          }} />
     }

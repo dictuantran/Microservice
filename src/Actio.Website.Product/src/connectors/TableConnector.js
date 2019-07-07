@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
 import { deleteProduct, deleteSupplier } from "../actions/modelActionCreators";
 import { PRODUCTS, SUPPLIERS } from "../constants/dataTypes";
-import { withRouter } from "react-router-dom";
 import { getData } from "../webservice/RestMiddleware";
 import { DataGetter } from "../components/DataGetter";
 

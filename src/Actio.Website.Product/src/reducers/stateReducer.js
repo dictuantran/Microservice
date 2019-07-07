@@ -3,6 +3,7 @@ import { STATE_START_EDITING, STATE_END_EDITING, STATE_START_CREATING }
 import { initialData } from "../store/initialData";
 
 export default function(storeData, action) {
+    
     switch(action.type) {
         case STATE_START_EDITING:
         case STATE_START_CREATING:

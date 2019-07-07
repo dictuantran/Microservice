@@ -35,11 +35,12 @@ export class Selector extends Component {
                                 component={ IsolatedEditor } />
                             <Route path="/error/:message" 
                                 component={ RequestError } />
-                            { routes.map(r => 
-                               <Route key={ r.url } 
-                                   path={ `/:datatype(${r.datatype})/:mode?/:id?`}
-                                   component={ RoutedDisplay(r.datatype)} />
-                            )}
+                                { 
+                                    routes.map(r => 
+                                        <Route key={ r.url } 
+                                            path={ `/:datatype(${r.datatype})/:mode?/:id?`}
+                                            component={ RoutedDisplay(r.datatype)} />)
+                                }
                             <Redirect to={ routes[0].url } />
                         </Switch>
                     </div>
