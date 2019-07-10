@@ -14,7 +14,8 @@ module.exports = function () {
         suppliers: [
             { id: 1, name: "Surf Dudes", city: "San Jose", products: [1, 2] },
             { id: 2, name: "Goal Oriented", city: "Seattle", products: [3, 4, 5] },            
-            { id: 3, name: "Bored Games", city: "New York", products: [6, 7, 8, 9] },                    
+            { id: 3, name: "Bored Games", city: "New York", products: [6, 7, 8, 9] },
+            { id: 4, name: "Adam", city: "New York", products: [6, 8, 9] },
         ]
     }
     return data

@@ -27,7 +27,7 @@ const render = (Component) => {
 
 render(RootContainer);
 
-if (module.hot) {
+if (module.hot) {  
   module.hot.accept('./containers/RootContainer', () => {
     render(RootContainer);
   });

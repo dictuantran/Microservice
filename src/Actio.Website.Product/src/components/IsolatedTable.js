@@ -9,6 +9,7 @@ export class IsolatedTable extends Component {
         this.state = {
             products: []
         }
+        
         this.dataSource = new RestDataSource("http://localhost:3500/api/products", 
             (err) => this.props.history.push(`/error/${err}`));
     }

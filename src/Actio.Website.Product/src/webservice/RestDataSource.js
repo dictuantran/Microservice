@@ -28,7 +28,7 @@ export class RestDataSource {
     }
 
     async SendRequest(method, url, callback, data) {
-        try {
+        try {        
             callback((await Axios.request({
                 method: method, 
                 url: url,
